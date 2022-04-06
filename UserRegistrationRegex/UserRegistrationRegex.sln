@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRegistrationRegex", "UserRegistrationRegex.csproj", "{DEB9BBAD-C68E-42F0-8348-CEDE5514ACD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRegistrationTesting", "..\UserRegistrationTesting\UserRegistrationTesting.csproj", "{F84E6746-2295-429A-8351-40E755CBF07A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEB9BBAD-C68E-42F0-8348-CEDE5514ACD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB9BBAD-C68E-42F0-8348-CEDE5514ACD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB9BBAD-C68E-42F0-8348-CEDE5514ACD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB9BBAD-C68E-42F0-8348-CEDE5514ACD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84E6746-2295-429A-8351-40E755CBF07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84E6746-2295-429A-8351-40E755CBF07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84E6746-2295-429A-8351-40E755CBF07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84E6746-2295-429A-8351-40E755CBF07A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {181075C6-941B-4D59-9C76-EFE3945F050B}
+	EndGlobalSection
+EndGlobal
