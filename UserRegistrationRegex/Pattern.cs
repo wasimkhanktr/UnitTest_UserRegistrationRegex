@@ -11,24 +11,24 @@ namespace UserRegistrationRegex
     {
         public string FirstName = "^[A-Z]{1}[a-z]{2,}$";
         public string LastName = "^[A-Z]{1}[a-z]{2,}$";
-        public string Email = " ^[A - Z0 - 9a - z]{1,}([.#$^_-][A-Za-z0-9]+)?[@][A-Za-z]{2,}[.][A-Za-z]{2,3}([.][a-zA-Z]{2})?$";
+        public string Email = "^[A - Z0 - 9a - z]{1,}([.#$^_-][A-Za-z0-9]+)?[@][A-Za-z]{2,}[.][A-Za-z]{2,3}([.][a-zA-Z]{2})?$";
         public string MobileNo = "^[0-9]{2}[ ]{1}[6-9]{1}[0-9]{9}$";
         public string Password = "^(?=.*[A-Z])(?=.*[0-9])(?=.[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,}$";
         public string validateFirstName(string firstName)
         {
             bool correct = Regex.IsMatch(firstName, FirstName);
             if (correct)
-                return "First Name is Valid";
+                return "FirstName is Valid";
             else
-                return "First Name is not Valid";
+                return "FirstName is not Valid";
         }
         public string validateLastName(string lastName)
         {
             bool correct = Regex.IsMatch(lastName, LastName);
             if (correct)
-                return "Last Name is Valid";
+                return "LastName is Valid";
             else
-                return "Last Name is not Valid";
+                return "LastName is not Valid";
         }
         public string validateEmail(string email)
         {
